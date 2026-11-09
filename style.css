@@ -1,15 +1,14 @@
 /* Custom Style Adjustments for SMP Qur'an Al-Wahdah LMS */
-
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.sidebar-item.active {
-    background-color: #10b981;
-    color: white;
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+.nav-btn.active {
+    background-color: #10b981 !important;
+    color: white !important;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
 }
 
 .course-card {
@@ -18,5 +17,5 @@ body {
 
 .course-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08);
 }
